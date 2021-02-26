@@ -17,6 +17,7 @@ public class main {
             System.out.println("Introduce el valor del segundo operador");
             b=teclado.nextInt();
             calculadora calcu=new calculadora(a,b);
+            System.out.print("hola en mi segundo add");
          final String escribir = "El resultado de la suma es ";
             
             switch (operacion){
